@@ -1,0 +1,2 @@
+# EventlogMonitor
+This app monitors the Eventlog on a certain machine if it shows errors or warnings which can be set in eventmon.vbs it will mail the email address that is set in the mailsend.bat file. This is achieved by adding the events.bat under the scheduled tasks and running it when desired. Through mailsend.bat &amp; mailsend.exe it will be able to mail the recipients the relative info and also the body of msg.txt.If triggered it will log to sendmail.txt. Uses VBscript, DOS and the sendmail app.
